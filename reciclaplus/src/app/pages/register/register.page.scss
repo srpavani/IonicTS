@@ -1,26 +1,3 @@
-ion-button[color="dark"]{
-    text-transform: initial;
-}
-
-.logintxt{
-    display:flex ;
-    align-items: center;
-    justify-content: center;
-    color: rgb(209, 209, 209);
-}
-
-ion-button{
-    --background: rgb(147, 147, 147); 
-}
-
-ion-content{
-    --background: rgb(165, 255, 109); 
-}
-
-ion-card{
-    --background: rgba(255, 255, 255, 0.718);
-}
-
-ion-card-title{
-    color: black;
+ion-item{
+    margin-bottom: 20px;
 }

@@ -3,6 +3,60 @@
 </ion-header>
 <ion-content>
   <ion-card>
-  <ion-card-title>Gostaria de ser vendedor ou comprar materias reciclados ?</ion-card-title>
-  </ion-card>
+    <ion-card-title>Gostaria de ser vendedor ou comprar materias reciclados ?</ion-card-title>
+    <br>
+    <ion-radio-group>
+      <ion-item>
+        <ion-label>Comprar</ion-label>
+      <ion-radio value="client" slot="start"></ion-radio>
+    </ion-item>
+  <ion-item>
+      <ion-label>Vender</ion-label>
+      <ion-radio slot="start" value="seller" ></ion-radio>
+    </ion-item>
+    </ion-radio-group>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Dados</ion-card-title>
+  </ion-card-header>
+  <ion-item>
+    <ion-input type="text" label="Nome" labelPlacement="floating" placeholder="Digite seu nome"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" label="Idade" labelPlacement="floating" placeholder="Digite sua"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="email" label="Email" labelPlacement="floating" placeholder="Digite seu email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" label="Telefone" labelPlacement="floating" placeholder="Digite seu telefone"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="password" label="Senha" labelPlacement="floating" placeholder="Digite sua senha"></ion-input>
+  </ion-item>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Endereco</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-input type="text" label="Rua" labelPlacement="floating" placeholder="Digite sua rua"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" label="numero" labelPlacement="floating" placeholder="Digite o numero"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" label="complemento" labelPlacement="floating" placeholder="Digite o complemento(opcional)"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" label="cep" labelPlacement="floating" placeholder="Digite o cep"></ion-input>
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+<ion-button size="full" color="light">Registrar</ion-button>
+<!-- <ion-button size="full" color="dark" fill="clear">ja sou cadastrado</ion-button> -->
+
 </ion-content>
