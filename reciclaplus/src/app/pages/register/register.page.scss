@@ -14,6 +14,13 @@ ion-button{
 }
 
 ion-content{
-    --background: rgb(38, 38, 38); 
+    --background: rgb(165, 255, 109); 
 }
 
+ion-card{
+    --background: rgba(255, 255, 255, 0.718);
+}
+
+ion-card-title{
+    color: black;
+}
